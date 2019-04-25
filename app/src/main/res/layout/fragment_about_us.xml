@@ -1,0 +1,47 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="#ffffff"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/img"
+        android:id="@+id/proPic"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/proPic"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Vishal Sampat Ghadage"
+        android:textStyle="italic"
+        android:textColor="#292929"
+        android:textSize="20sp"
+        android:id="@+id/txtName"
+        android:textAllCaps="true"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text=
+            "Raje Music Player: Version 1.0 \nAll Rights Reserved.\nwww.byraje.com"
+        android:layout_below="@id/txtName"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        />
+
+
+
+</RelativeLayout>
